@@ -1,25 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navbar from './Components/Navbar';
 import './App.css';
+import './Styles/Navbar.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div class="box">
+    <Navbar />
+				<div class="caption"></div>
+				<img src="https://infopompiers.com/wp-content/uploads/2015/09/photodune-12340196-professional-creative-graphic-designer-desk-m-1220x813.jpg" alt="portfolio" />
+		</div>
   );
 }
 
